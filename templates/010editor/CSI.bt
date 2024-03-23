@@ -1,0 +1,26 @@
+//------------------------------------------------
+//--- 010 Editor v12.0.1 Binary Template
+//
+//      File: 
+//   Authors: 
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+char magic[4];
+uint unk;
+uint unk;
+uint unk;
+uint width;
+uint height;
+uint bytesPerPixel;
+uint unk;
+uint unk;
+
+char format[4];  
+byte empty[120];
+byte data[width*height*bytesPerPixel];
